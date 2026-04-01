@@ -4,3 +4,9 @@
 
 # Dynamic plugins .dll
 bin/
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/
+.cache/
