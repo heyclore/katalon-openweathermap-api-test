@@ -4,4 +4,32 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>API base URL</description>
+      <initValue>'https://api.openweathermap.org'</initValue>
+      <name>BASE_URL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Latitude for Jakarta Selatan</description>
+      <initValue>-6.2615</initValue>
+      <name>LAT</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Longitude for Jakarta Selatan</description>
+      <initValue>106.8106</initValue>
+      <name>LON</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>OpenWeatherMap API Key, read from ENV</description>
+      <initValue>''</initValue>
+      <name>API_KEY</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
