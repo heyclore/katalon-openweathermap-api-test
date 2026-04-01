@@ -1,0 +1,1 @@
+# katalon-openweathermap-api-test
